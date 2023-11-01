@@ -17,14 +17,6 @@ import static io.qameta.allure.Allure.step;
 
 class RegistrationRemoteTests extends RemoteTestBase  {
 
-//    static {
-//        ChromeOptions options = new ChromeOptions();
-//        options.setBinary("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome");
-//        DesiredCapabilities capabilities = new DesiredCapabilities();
-//        capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-//        Configuration.browserCapabilities = capabilities;
-//    }
-
     @Test
     @Tag("remote")
     @DisplayName("Successful registration")
